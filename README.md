@@ -41,3 +41,11 @@ A Flutter-based mobile application for browsing and filtering diamonds from an E
    ```bash
    git clone https://github.com/your-username/kgk_dia.git
    cd kgk_dia
+
+
+
+**Enhancements Pending**
+   - Removing of items
+   - Checkout
+   - Cart Icon updates
+     
