@@ -128,7 +128,8 @@ class _ResultPageState extends State<ResultPage> {
                   icon: const Icon(Icons.add_shopping_cart),
                   label: const Text("Add to Cart"),
                   onPressed: () {
-                    BlocProvider.of<CartBloc>(context).add(AddToCart(diamond));
+                    BlocProvider.of<CartBloc>(context)
+                        .add(AddToCart(diamond, context: context));
                   },
                 ),
                 ElevatedButton.icon(
