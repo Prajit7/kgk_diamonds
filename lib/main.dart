@@ -18,7 +18,7 @@ void main() async {
     SharedPreferences.getInstance(),
   ]);
 
-  final sharedPreferences = futureResults[1];
+  final sharedPreferences = futureResults[0];
 
   // Initialize services and controllers
   final sharedPreferencesServices =
